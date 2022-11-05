@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        overflow-x:hidden;
+        padding: 0;
+        margin: 0;
+    }
+    #navbar{
+        display: inline-block;
+        background-color: black;
+        /* padding: 10px;s */
+        /* margin-top: 10px; */
+        z-index: 2;
+        position: sticky;
+        top:0px;
+        /* overflow: hidden; */
+        color: rgb(255, 255, 255);
+        height: 70px;
+        width:1550px;
+    }
+    div>ol{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        /* padding: 10px; */
+        /* position: sticky; */
+        /* margin: 10px 10px; */
+        justify-content: center;
+        position: relative;
+    }
+    div>ol>li{
+        padding-left: 10px;
+        padding-right: 10px ;
+    }
+    .navitems{
+        margin: 5px 5px;
+    }
+
+    #logo2{
+        position: relative;
+        top:10px;
+        left: 4vw;
+    }
+    #x{
+        position: relative;
+        left: 4vw;
+        bottom: 0.7vw;
+        margin: 10px;
+    }
+    ol>li{
+        position:relative ;
+        bottom: 50px;
+    }
+    .navitems:hover{
+        color: rgb(74, 219, 171);
+    }
+    #s1{
+       position: absolute;
+       bottom: 20px;
+       left: 85vw;
+       top: 15px;
+       height: 40px;
+       width:160px;
+    border-color:rgb(58, 124, 102);
+    border-radius: 42%;
+    }
+    #s1:hover{
+        background-color: darkgreen;
+    }
+    #part1{
+        border: 3px solid pink;
+        height: 12vh;
+        width: 70vw;
+        margin-left: 15vw;
+        background-color: pink;
+        border-bottom-right-radius: 5%;
+        border-bottom-left-radius:5%;
+        border-top-right-radius:5%;
+        border-top-left-radius:5%;
+
+    }
+    .box{
+        border: 3px solid black;
+        height: 300px;
+        width:300px;
+        display: flex;
+        /* flex-direction: coloumn; */
+        margin:10px;
+        margin-left: 30vw;
+        flex-wrap: wrap;
+    }
+    #bcmg{
+        border: 3px solid black;
+        height: 200px;
+        width:100vw;;
+        background-image: url(image.png);
+    }
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <span  id="logo1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_moUzlTX0ApP96yGGAXPwCvFYRGOZkpoNSHD3Rl4WtmHSzm0F67HUN-yGGghdWr7EbVE&usqp=CAU" id="logo2" height="50px"><span id="x">IMAGE</span></span>
+        <ol >
+            <li class="navitems">HOME</li>
+            <li class="navitems">ABOUT</li>
+            <li class="navitems">BLOGS</li>
+            <li class="navitems">PLANS</li>
+            <li class="navitems">GALLERY</li>
+            <li class="navitems">CONTACT US</li>
+        </ol>
+        <button id="s1">BOOK TRIAL</button>
+    </div>
+    <div id="body1">
+        <div class="body-parts" id="part1">
+            <h3>Photographer's Blog</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, placeat.</p>
+        </div>
+        <div>
+            <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLHvmRKCEiy3w0JLlVXUP4ht6x-FEm0RXCbw&usqp=CAU"></div>
+            <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLHvmRKCEiy3w0JLlVXUP4ht6x-FEm0RXCbw&usqp=CAU"></div>
+            <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLHvmRKCEiy3w0JLlVXUP4ht6x-FEm0RXCbw&usqp=CAU"></div>
+            <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLHvmRKCEiy3w0JLlVXUP4ht6x-FEm0RXCbw&usqp=CAU"></div>
+            <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLHvmRKCEiy3w0JLlVXUP4ht6x-FEm0RXCbw&usqp=CAU"></div>
+            <div class="box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLHvmRKCEiy3w0JLlVXUP4ht6x-FEm0RXCbw&usqp=CAU"></div>
+        </div>
+    </div>
+    <div id="bcmg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sequi ab. Incidunt, officia. Mollitia nobis doloremque corrupti inventore ad, expedita odit quo minima a nihil distinctio quas atque consequuntur accusantium, aspernatur, necessitatibus sunt suscipit deleniti animi? Iusto, deleniti. Exercitationem deserunt accusantium, corporis explicabo molestiae perferendis doloremque harum vero obcaecati aliquam.</p>
+    </div>
+</body>
+</html>
